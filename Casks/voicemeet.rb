@@ -1,6 +1,6 @@
 cask "voicemeet" do
-  version "0.0.1+2"
-  sha256 "8f67f46c0d3099a0f88297bcbba2005f2eed2f38b8301fc9b7d9cd5fc4e15d46"
+  version "0.0.2"
+  sha256 "e03eb205b88e886b0705cf34d16d29601a25213400cdd9253adc11867ae6de8b"
 
   url "https://github.com/voicemeet/releases/releases/download/v#{version}/VoiceMeet-#{version.tr("+", ".")}-macos-universal.dmg",
       verified: "github.com/voicemeet/releases/"
