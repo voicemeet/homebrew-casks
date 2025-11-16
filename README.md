@@ -5,18 +5,9 @@
 
 ## Casks
 
-<table>
-  <tr>
-    <th>Casks</th>
-    <th>Version</th>
-  </tr>
-  <tr>
-    <td>voicemeet</td>
-    <td>
-      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/voicemeet/homebrew-casks/main/Info/voicemeet.json&query=$.casks.[0].version&label=homebrew">
-    </td>
-  </tr>
-</table>
+| Cask      | Version                                                                                                                                                                                                                                                                                                               | 
+|:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| voicemeet | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fvoicemeet%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Fvoicemeet.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew) |
 
 ## Install
 
