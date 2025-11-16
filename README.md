@@ -2,7 +2,6 @@
 
 [![Test](https://github.com/voicemeet/homebrew-casks/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/voicemeet/homebrew-casks/actions/workflows/test.yml)
 [![Excavator](https://github.com/voicemeet/homebrew-casks/actions/workflows/excavator.yml/badge.svg)](https://github.com/voicemeet/homebrew-casks/actions/workflows/excavator.yml)
-[![Generate casks info](https://github.com/voicemeet/homebrew-casks/actions/workflows/gen-casks.yml/badge.svg)](https://github.com/voicemeet/homebrew-casks/actions/workflows/gen-casks.yml)
 
 ## Casks
 
