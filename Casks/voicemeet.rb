@@ -6,7 +6,7 @@ cask "voicemeet" do
       verified: "github.com/voicemeet/releases/"
   name "VoiceMeet"
   desc "Meet the World through Voice"
-  homepage "https://voicemeet.io/"
+  homepage "https://voicemeet.net/"
 
   livecheck do
     url :url
@@ -26,9 +26,9 @@ cask "voicemeet" do
 
   zap trash: [
     "~/Library/Application Support/VoiceMeet",
-    "~/Library/Caches/io.voicemeet.voicemeet",
+    "~/Library/Caches/net.voicemeet.voicemeet",
     "~/Library/Caches/VoiceMeet",
-    "~/Library/Preferences/io.voicemeet.voicemeet.plist",
-    "~/Library/Saved Application State/io.voicemeet.voicemeet.savedState",
+    "~/Library/Preferences/net.voicemeet.voicemeet.plist",
+    "~/Library/Saved Application State/net.voicemeet.voicemeet.savedState",
   ]
 end
