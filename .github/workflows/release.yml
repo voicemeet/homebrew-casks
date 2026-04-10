@@ -21,7 +21,7 @@ jobs:
         shell: sh
         run: |
           LATEST_VERSION=$(curl -H "Authorization: Bearer ${{ secrets.VM_RELEASE_TOKEN }}" -s "https://api.github.com/repos/voicemeet/releases/releases/latest" | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
-          LATEST_SHA=$(curl -H "Authorization: Bearer ${{ secrets.VM_RELEASE_TOKEN }}" -sL "https://github.com/voicemeet/releases/releases/download/v${LATEST_VERSION}/VoiceMeet-${LATEST_VERSION}-macos-universal.dmg" | sha256sum | cut -f 1 -d " ")
+          LATEST_SHA=$(curl -H "Authorization: Bearer ${{ secrets.VM_RELEASE_TOKEN }}" -sL "https://github.com/voicemeet/releases/releases/download/v${LATEST_VERSION}/VoiceMeet-${LATEST_VERSION}-universal.dmg" | sha256sum | cut -f 1 -d " ")
           
           echo "Latest release: $LATEST_VERSION"
           echo "Latest SHA: $LATEST_SHA"
